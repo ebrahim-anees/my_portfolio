@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Title from '../components/Title';
-import OverviewCard from '../components/overviewCard';
+import OverviewCard from '../components/OverviewCard';
 
 gsap.registerPlugin(ScrollTrigger);
 
