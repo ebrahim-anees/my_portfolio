@@ -1,9 +1,8 @@
 import { useGSAP } from '@gsap/react';
-import Button from '../components/button';
+import Button from '../components/Button';
 import { useInView } from 'react-intersection-observer';
 import { words } from '../data';
 import gsap from 'gsap';
-import { useRef } from 'react';
 import ComputerModel from '../components/models/hero/ComputerModel';
 
 export default function Hero({ scrollToRef }) {
