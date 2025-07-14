@@ -1,12 +1,57 @@
-# React + Vite
+# 🌐 Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, showcasing my skills, projects, and background as a full-stack developer. It's designed with modern UI principles, smooth animations, and clean code – to reflect how I approach real-world development.
 
-Currently, two official plugins are available:
+## 🔥 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://your-username.vercel.app](https://your-username.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✨ **Animated Hero** section with 3D model intro
+- 📖 **About Me** section with McKinsey Forward badge and core traits
+- 🧠 **Tech Stack** filterable grid with GSAP animations and beginner tooltips
+- 📦 **Projects** section with full-stack apps and sub-projects
+- 💬 **Contact Form** with a glassmorphic UI and interactive model
+- 🌐 Responsive & fast design (optimized for all devices)
+- ⚙️ Fully deployable on [Vercel](https://vercel.com)
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:** React, Tailwind CSS, GSAP, Three.js (model), Framer Motion  
+**Backend:** Node.js, Express.js, MongoDB  
+**Tools:** Git, GitHub, Postman, Vercel
+
+---
+
+## 📁 Project Structure
+
+├── public/ # Assets & icons
+├── src/
+│ ├── components/ # Reusable components
+│ ├── data/ # Tech stack and project JSON data
+│ ├── sections/ # Hero, About, Projects, Contact
+│ ├── styles/ # Tailwind & custom styles
+│ └── App.jsx # Main layout
+└── vite.config.js / next.config.js
+
+---
+
+## 📬 Contact Me
+
+Feel free to reach out for freelance projects, collaborations, or open-source contributions.
+
+- [LinkedIn](https://www.linkedin.com/in/ebrahim-anees-608313304)
+- [GitHub](https://github.com/ebrahim-anees)
+- [X (Twitter)](https://x.com/anees_210)
+- [LeetCode](https://leetcode.com/u/ebrahim-anees)
+
+---
+
+## 📌 License
+
+This project is open-sourced under the [MIT License](LICENSE).

@@ -324,7 +324,7 @@ const socialImgs = [
   {
     name: 'LinkedIn',
     icon: IoLogoLinkedin,
-    pathUrl: 'https://www.linkedin.com/in/ebrahim-anees-608313304/',
+    pathUrl: 'https://www.linkedin.com/in/ebrahim-anees-608313304',
   },
 ];
 
