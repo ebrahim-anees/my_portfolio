@@ -4,7 +4,7 @@ This is my personal portfolio website, showcasing my skills, projects, and backg
 
 ## 🔥 Live Demo
 
-[https://your-username.vercel.app](https://your-username.vercel.app)
+[live demo](https://my-portfolio-six-theta-77.vercel.app/)
 
 ---
 
