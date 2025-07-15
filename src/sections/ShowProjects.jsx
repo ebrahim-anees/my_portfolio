@@ -31,7 +31,8 @@ function ShowProjects({ sectionRef }) {
         stagger: 0.3,
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: 'top bottom-=150',
+          start: () =>
+            window.innerWidth < 640 ? 'top 90%' : 'top bottom-=150',
           toggleActions: 'play reverse play reverse',
         },
       }
