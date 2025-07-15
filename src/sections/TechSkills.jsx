@@ -93,7 +93,11 @@ function TechSkills({ sectionRef }) {
                 key={icon.name}
                 className={`card-container ${
                   isDimmed ? 'opacity-30 grayscale' : 'opacity-100 shadow-xl'
-                } ${i===9? 'col-start-auto md:col-start-2 xl:col-start-auto':''}`}
+                } ${
+                  i === 9
+                    ? 'col-start-auto md:col-start-2 xl:col-start-auto'
+                    : ''
+                }`}
                 data-type={icon.type}
               >
                 <a
@@ -175,9 +179,10 @@ function TechSkills({ sectionRef }) {
                 >
                   {icon.proficiency === 'beginner' && (
                     <div className="badge-container group">
-                      <div className="badge-dot group-hover:animate-none" />
-                      <div className="badge-tooltip group-hover:opacity-100">
-                        Still learning
+                      <div className="badge-dot group-hover:animate-none">
+                        <div className="badge-tooltip group-hover:opacity-100">
+                          Still learning
+                        </div>
                       </div>
                     </div>
                   )}
